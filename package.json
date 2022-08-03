@@ -1,0 +1,27 @@
+{
+  "name": "darksoulsapi",
+  "version": "1.0.0",
+  "description": "Dark Souls API",
+  "main": "index.js",
+  "start": "node server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkimminau/darkSoulsApi.git"
+  },
+  "author": "Jamison Kimminau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkimminau/darkSoulsApi/issues"
+  },
+  "homepage": "https://github.com/jkimminau/darkSoulsApi#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0"
+  }
+}
